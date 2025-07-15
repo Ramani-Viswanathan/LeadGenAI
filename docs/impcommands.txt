@@ -1,0 +1,32 @@
+# Git Setup
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+# Initialize Git
+git init
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Initial commit"
+
+# Add remote repository (replace with your repo URL)
+git remote add origin https://github.com/your-username/your-repo.git
+
+# Push to GitHub
+git push -
+
+# enable environment
+.venv\Scripts\activate
+
+# article for best practice with requirements.txt
+https://www.geeksforgeeks.org/python/how-to-create-requirements-txt-file-in-python/ 
+
+# to install all dependencis in requirements.txt file
+pip install -r requirements.txt
+
+# use command to freeze the version installed
+pip freeze > requirements.txt
+# View installed packages using command
+cat requirements.txt
